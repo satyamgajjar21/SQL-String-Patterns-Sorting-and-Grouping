@@ -54,15 +54,4 @@ After completing this lab, you will be able to:
 
 > If needed, refer to the lab:  
 **Hands-on Lab: Sign up for IBM Cloud, Create Db2 service instance and Get started with the Db2 console**
-
----
-
-## **Exercise 1: String Patterns**
-
-### **1. Retrieve all employees whose address is in Elgin, IL**
-
-**Solution:**
-```sql
-SELECT F_NAME, L_NAME
-FROM EMPLOYEES
-WHERE ADDRESS LIKE '%Elgin,IL%';
+ 
